@@ -2,10 +2,11 @@ print("Importing...")
 from os import system
 try:
 	import pyautogui
+	import cv2
+	import PIL
 except:
 	system('py -m pip install pyautogui')
 	system('py -m pip install pillow')
-	system('py -m pip install ')
 	system('py -m pip install opencv-python')
 	import pyautogui
 from time import time, sleep
